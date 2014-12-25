@@ -147,6 +147,7 @@ class RAVEnMQTT:
                                 log.warning(rawxml)
                         except Exception as e:
                           log.error("Exception triggered: " + str(e))
+			  log.error("XML Fragment: " + rawxml)
                         # reset rawxml
                         rawxml = ""
                     # if it starts with a space, it's inside the fragment
