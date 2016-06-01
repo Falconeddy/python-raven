@@ -22,4 +22,4 @@ The current master branch doesn't handle disconnects well, i.e. reconnection isn
 Usage
 =====
 
-Run ```python_raven.py --help``` for info on how to use. 
+Run ```raven_script.py --help``` for info on how to use. 
